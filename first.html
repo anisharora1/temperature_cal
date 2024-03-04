@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Project</title>
+    <link rel="stylesheet" href="first.css">
+</head>
+<body>
+    <form>
+        <h1>Temprature Converter Calculater !</h1><br>
+        <input type="number" id="textBox"><br>
+        
+        <input type="radio" id="toFahrenheit" name="same">
+        <label for="toFahrenheit">Celsius → Fahrenheit</label><br>
+
+        <input type="radio" id="toCelsius" name="same">
+        <label for="toCelsius">Fahrenheit → Celsius</label><br>
+
+        <button type="button" onclick="convert()">Submit</button>
+        <button type="button" id="reset" onclick="resetmethod()">Reset</button>
+        <p id="resultBox" ></p>
+
+
+    </form>
+  
+    <script src="first.js"></script>
+</body>
+</html>
